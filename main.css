@@ -1,0 +1,62 @@
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: rgba(255, 136, 1, 0.719);
+    padding: 24px;
+}
+
+#cabecalho .nav .nav-link.active   {
+    background-color: #fff;
+    color: peru;       
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: black;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+} 
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-a-cafeteira, #cardapido {
+    background-color: rgb(230, 171, 113);
+}
+
+.text-colored {
+    color: peru;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: peru;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: peru;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width:767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
